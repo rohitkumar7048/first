@@ -1,0 +1,85 @@
+ div {
+        color: #0000ff;
+        font-size: 20px;
+      }
+      #a1 {
+        text-decoration: none;
+        color: aquamarine;
+        font-size: medium;
+        font-weight: bold;
+      }
+      #p{
+        width: 500px;
+        height: 500px;
+        background-color: red;
+      }
+      #c1{
+        width: 200px;
+        height: 200px;
+        background-color: rgb(9, 43, 73);
+      }
+      #c2{
+        width: 200px;
+        height: 200px;
+        background-color: rgb(20, 205, 20);
+      }
+      /*/ descendant selector
+      
+      
+      
+      */#p:hover #c1{
+       background: gray;
+       border-radius: 200px;
+      }
+      .a{
+        width: 400px;
+        height: 400px;
+        position: relative;
+        left: 30px;
+        background: black;
+       
+      }
+      #p1{
+        width: 600px;
+        height: 600px;
+        background: red;
+        margin: auto;
+        overflow: hidden;
+        position: relative;
+      }
+      .common{
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        
+      }
+      .blue{
+        background: #0000ff;
+        border-bottom-left-radius: 300px;
+        border-top-right-radius: 300px;
+        bottom: 0px;
+        right: 0px;
+
+      }
+      .green{
+        background: green;
+        border-bottom-left-radius: 300px;
+        border-top-right-radius: 300px;
+
+      }
+      .black{
+        background: black;
+       
+        border-bottom-right-radius: 300px;
+        border-top-left-radius: 300px;
+        bottom: 0px;
+        left: 0px;
+      }
+      .yellow{
+        background: yellow;
+        top: 0px;
+        right: 0px;
+        border-top-left-radius: 300px;
+        border-bottom-right-radius: 300px ;
+      }
+    
